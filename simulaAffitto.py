@@ -23,7 +23,7 @@ st.title("📈 Simulatore affitto")
 
 anniAmmortamento=10
 tassoInteresse=10
-reddito_netto_atteso = st.number_input("a quanto auspichi un reddito netto per la Gianna?")
+reddito_netto_atteso = st.number_input("a quanto auspichi un reddito netto mensile per la Gianna?")
 costiRistrutturazione=st.number_input("a quanto prevedi i costi di ristrutturazione complessivi, DELL'APPARTAMENTO?")# qui chiedo quanti lavori 
 anniAmmortamento=st.number_input("In quanti anni desideri l'ammortamento dei costi, PER L'APPARTAMENTO", value=1.0)
 debitoIpotecario=st.number_input("Quanto è il debito ipotecario RELATIVO SOLO ALL'APPARTAMENTO in questione?")
