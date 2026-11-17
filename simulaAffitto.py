@@ -31,7 +31,7 @@ tassoInteresse=st.number_input("A quale tasso di interesse % ipotecario?")
 
 affittoMensile=reddito_netto_atteso + (costiRistrutturazione/anniAmmortamento + debitoIpotecario*tassoInteresse/100)/12
 
-st.write("l'affitto mensile AL NETTO DEI COSTI dovrà partire da Chf ", affittoMensile)
+st.write("l'affitto mensile AL NETTO DEI COSTI dovrà partire da Chf ", st.metric(affittoMensile, value="1.250", delta="+120")  #st.metric(label="Risultato", value="1.250", delta="+120")
 
 
 #i = 0
