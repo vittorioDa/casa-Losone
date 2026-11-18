@@ -33,6 +33,10 @@ affittoMensile=reddito_netto_atteso + (costiRistrutturazione/anniAmmortamento + 
 
 st.metric("l'affitto mensile AL NETTO DEI COSTI dovrà partire da Chf ", affittoMensile) #st.metric ingrandisce il valore del valore affittoMensile
 
+if st.button("MANDA I PALLONCINI!"):
+    st.balloons()
+
+
 #i = 0
 
 
